@@ -5,8 +5,6 @@
 (require 'use-package)
 (setq use-package-always-ensure t)
 
-
-
 (use-package emacs
   :ensure nil
   
@@ -46,6 +44,7 @@
   
   :bind
   ("C-c r" . eglot-rename))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
