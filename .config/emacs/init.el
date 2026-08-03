@@ -12,7 +12,6 @@
   (menu-bar-mode 0)
   (tool-bar-mode 0)
   (scroll-bar-mode 0)
-  (load-theme 'wombat)
 
   :custom
   (visible-bell 1)
@@ -27,6 +26,15 @@
   
   :bind
   ("C-c f" . 'toggle-frame-fullscreen))
+
+(use-package auto-dark
+  :custom
+  (auto-dark-themes '((wombat) (leuven)))
+  (auto-dark-polling-interval-seconds 0)
+  (auto-dark-allow-osascript nil)
+  (auto-dark-allow-powershell nil)
+    
+  :init (auto-dark-mode))
 
 (use-package which-key
   :ensure nil
@@ -50,7 +58,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages '(markdown-mod markdown-preview-mode rust-mode)))
+ '(package-selected-packages '(auto-dark rust-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
