@@ -51,6 +51,8 @@
   ('rust-mode . 'eglot-ensure)
   
   :bind
+  ("C-c d" . eglot-find-declaration)
+  ("C-c i" . eglot-find-implementation)
   ("C-c r" . eglot-rename))
 
 (custom-set-variables
