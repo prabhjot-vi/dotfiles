@@ -24,7 +24,7 @@
   (global-display-line-numbers-mode)
   (menu-bar--display-line-numbers-mode-relative)
   (add-to-list 'default-frame-alist
-               '(font . "Hack Regular-10"))
+               '(font . "Hack-11"))
   
   :bind
   ("C-c f" . 'toggle-frame-fullscreen))
