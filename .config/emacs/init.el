@@ -35,6 +35,8 @@
   (auto-dark-polling-interval-seconds 0)
   (auto-dark-allow-osascript nil)
   (auto-dark-allow-powershell nil)
+
+  :bind ("C-c t" . 'auto-dark-toggle-appearance)
     
   :init (auto-dark-mode))
 
