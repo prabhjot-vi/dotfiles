@@ -19,12 +19,14 @@
   (column-number-mode t)
   (create-lockfiles nil)
   (make-backup-files nil)
+  (gdb-show-main t)
+  (gdb-many-windows t)
   
   :config
   (global-display-line-numbers-mode)
   (menu-bar--display-line-numbers-mode-relative)
   (add-to-list 'default-frame-alist
-               '(font . "Cascadia Mono-11"))
+               '(font . "Cascadia Mono-10"))
   (display-battery-mode)
   (display-time-mode)
   
