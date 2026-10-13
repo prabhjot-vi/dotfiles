@@ -25,6 +25,8 @@
   (menu-bar--display-line-numbers-mode-relative)
   (add-to-list 'default-frame-alist
                '(font . "Cascadia Mono-11"))
+  (display-battery-mode)
+  (display-time-mode)
   
   :bind
   ("C-c f" . 'toggle-frame-fullscreen))
