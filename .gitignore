@@ -1,5 +1,4 @@
-auto-save-list
-eln-cache
-elpa
-eshell
-projects
+.config/emacs/auto-save-list/
+.config/emacs/eln-cache/
+.config/emacs/elpa/
+.config/emacs/projects
