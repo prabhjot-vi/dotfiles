@@ -3,3 +3,4 @@
 ## Content
 
 * Emacs.
+* Helix.
