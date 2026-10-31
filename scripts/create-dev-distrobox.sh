@@ -5,7 +5,7 @@ echo "#     Creatring Dev Distrobox     #"
 echo "###################################"
 
 # DBX_* are accepted by distrobox 
-DBX_CONTAINER_NAME="test"
+DBX_CONTAINER_NAME="dev"
 DBX_CONTAINER_HOSTNAME=${DBX_CONTAINER_NAME}
 DBX_CONTAINER_IMAGE="quay.io/toolbx/ubuntu-toolbox:latest"
 DBX_NON_INTERACTIVE=1
